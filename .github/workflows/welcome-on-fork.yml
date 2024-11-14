@@ -18,17 +18,5 @@ jobs:
             owner: context.payload.repository.owner.login,
             repo: context.payload.repository.name,
             title: "Willkommen zum Projekt!",
-            body: `Hallo @${context.actor} 👋,
-
-Danke, dass du dieses Repository geforkt hast! 🚀
-
-Falls du Unterstützung brauchst oder Fragen hast, findest du hier einige hilfreiche Links:
-
-- **Dokumentation:** [Link zur Doku]
-- **Beitragsrichtlinien:** [Link zu den Guidelines]
-- **Fragen & Hilfe:** [Link zu Diskussionen/Issues]
-
-Wir freuen uns, dass du dabei bist! 😊
-
-Viel Erfolg und happy coding!`
+            body: `Hallo @${context.actor} Wir freuen uns, dass du dabei bist!`
           });
