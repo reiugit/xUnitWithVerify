@@ -11,7 +11,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  dotnet-build-and-test-with-Verify:
 
     runs-on: ubuntu-latest
 
