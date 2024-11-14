@@ -16,8 +16,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - run: echo "GitHub repository: ${{ github.repository }}"  # Gibt das Repository aus
-    - run: echo "Branch name: ${{ github.ref }}"  # Gibt den Branch-Namen aus
+    - run: echo "GitHub repository ${{ github.repository }}"  # Gibt das Repository aus
+    - run: echo "Branch name ${{ github.ref }}"  # Gibt den Branch-Namen aus
     - uses: actions/checkout@v4
     - name: Setup .NET
       uses: actions/setup-dotnet@v4
