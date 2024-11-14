@@ -4,8 +4,8 @@
 name: build-and-test-with-verify
 
 on:
-  push:
-    branches: [ "main" ]
+  # push:
+  #   branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
   workflow_dispatch:
